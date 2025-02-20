@@ -10,7 +10,6 @@ export default defineConfig({
   },
   server: {
     host: '0.0.0.0', // Allows external access
-    port: 5173,      // Ensure it matches Docker's exposed port
-    strictPort: true, // Ensure Vite fails if the port is unavailable
+    port: 3000,      // Ensure it matches Docker's exposed port
   },
 });
