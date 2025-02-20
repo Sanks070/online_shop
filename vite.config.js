@@ -8,4 +8,8 @@ export default defineConfig({
     css: {
       devSourcemap: false
     }
+    server: {
+    host: '0.0.0.0', // Allows external access
+    port: 3000,      // Ensure it matches Docker's exposed port
+  },
 })
